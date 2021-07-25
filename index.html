@@ -9,51 +9,134 @@
     <link rel="stylesheet" href="public/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet"/>
-    <link rel="sortcut icon" href="public/images/logo.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap"
+      rel="stylesheet"
+    />
 
-    </head>
-  
+    <link
+      rel="sortcut icon"
+      href="public/images/social/logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+
   <body>
     <header>
       <div class="logo">
-        <img src="public/images/logo.svg" alt="logo" />
+        <img src="public/images/social/logo.svg" alt="logo" />
         <span>Samwyle</span>
       </div>
       <nav class="menu">
-          <ul>
-              <li class="hov_button"><b>About Us</b></li>
-              <li class="hov_button"><b>Promotion</b></li>
-              <li class="hov_button"><b>Shop</b></li>
-              <li class="hov_button"><b>Contacts</b></li>
-              <li class="button"><b>Contact Us</b></li>
-          </ul>
-        </nav>
+        <ul>
+          <li class="hov_button">
+            <a href="#about" style="text-decoration: none">About Us</a>
+          </li>
+          <li class="hov_button">
+            <a href="#promo" style="text-decoration: none">Promotion</a>
+          </li>
+          <li class="hov_button">
+            <a href="#" style="text-decoration: none">Shop</a>
+          </li>
+          <li class="hov_button">
+            <a href="#" style="text-decoration: none">Contacts</a>
+          </li>
+          <li class="button">
+            <a href="#" style="text-decoration: none">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <div>
+      <div id="start">
         <div class="landing">
           <container>Drink coffee, enjoy with Samwyle</container>
-          <p>Coffee Shop</p>
+          <h1>Coffee Shop</h1>
           <span><b>Order here!</b></span>
         </div>
         <div class="landing_button">
-          <img src="public/images/arrow.svg">
+          <img src="public/images/arrow.svg" />
         </div>
         <div class="landing_image">
           <span></span>
-          <img src="public/images/coffee1.svg">
+          <img src="public/images/coffee/coffee1.svg" />
+        </div>
+
+        <div class="social">
+          <span>Follow Us</span>
+          <ul>
+            <li>
+              <a href="https://twitter.com/home" target="_blank"
+                ><img src="public/images/social/twitter.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank"
+                ><img src="public/images/social/instagram.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="https://facebook.com" target="_blank"
+                ><img src="public/images/social/facebook.svg"
+              /></a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="about">
-        <span>Follow Us</span>
-        <ul>
-          <li><a href="https://twitter.com/home" target="_blank"><img src="public/images/twitter.svg"></a></li>
-          <li><a href="https://instagram.com" target="_blank"><img src="public/images/instagram.svg"></a></li>
-          <li><a href="https://facebook.com" target="_blank"><img src="public/images/facebook.svg"></a></li>
-        </ul>
+      <div id="about-us">
+        <container class="about-image">
+          <span></span>
+          <img src="public/images/coffee/coffee2.svg" />
+          <h4>About us</h4>
+        </container>
+
+        <article id="about">
+          <h2>Coffee Shop Samwayle</h2>
+          <p>
+            Only one moment - when the barista reaches out over the bar to
+            transfer the cup to the outstretched hand of the buyer. But this is
+            exactly the moment when a connection arises between us and our
+            guests. <br />
+            And we strive to do our best to maintain this connection - starting
+            with our commitment to selecting the highest quality coffee in the
+            world and ending with how we interact with guests and organizations
+            to fulfill our obligations.
+          </p>
+        </article>
+      </div>
+      <div id="promotion">
+        <container class="promotion-image">
+          <span></span>
+          <img src="public/images/coffee/coffee3.svg" />
+        </container>
+        <article id="promo">
+          <h2>Coffee of the day</h2>
+          <p>
+            Americano coffee (Italian: Caffè Americano) is an espresso diluted
+            with hot water. The presence of foam (cream) depends on how coffee
+            and water are mixed. Attention! The concepts of “American” and
+            “American coffee” should not be confused. n the second case, this
+            refers not to diluted espresso, but to a drink prepared through a
+            filter system.
+          </p>
+        </article>
+        <container ><h5 class="order">Order Now</h5></container>
       </div>
     </main>
+
+    <container class="totop">
+      <a href="#"
+        ><span><img src="public/images/arrow2.svg" /></span
+      ></a>
+    </container>
+    <footer></footer>
   </body>
 </html>
