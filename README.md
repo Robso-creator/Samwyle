@@ -1,6 +1,6 @@
 # Samwyle
 <h1 align="center">
-    <img alt="Happy" title="Happy" src=".public/images/github/Samwyle.png" />
+    <img alt="Happy" title="Happy" src="public/images/github/Samwyle.png" />
 </h1>
 
 
