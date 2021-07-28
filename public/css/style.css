@@ -114,8 +114,8 @@ body {
   line-height: 25px;
 
   position: absolute;
-  top: 417px;
-  left: 240px;
+  top: 400px;
+  left: 120px;
   background: #2d635e;
   padding: 14px 50px;
   border-radius: 7px;
@@ -183,6 +183,7 @@ body {
   height: 28px;
   left: 1280px;
   top: 565px;
+  
 
   font-family: "Josefin Sans";
   font-style: normal;
@@ -219,12 +220,18 @@ p {
 
 /* About Us part */
 
+#about-us {
+  position: absolute;
+  top: 700px;
+}
+
+
 .about-image span {
   position: absolute;
   width: 380px;
   height: 287px;
   left: 120px;
-  top: 749px;
+  top: 69px;
 
   background: #fae9e0;
 }
@@ -234,7 +241,7 @@ p {
   width: 364.59px;
   height: 262.96px;
   left: 148px;
-  top: 827px;
+  top: 147px;
 }
 
 .about-image h4 {
@@ -242,7 +249,7 @@ p {
   width: 116px;
   height: 53px;
   left: 73px;
-  top: 715px;
+  top: 35px;
 
   font-family: "Cedarville Cursive";
   font-style: normal;
@@ -261,7 +268,7 @@ p {
   width: 645px;
   height: 290px;
   left: 603px;
-  top: 720px;
+  top: 40px;
 }
 
 /* Promotion Part */
@@ -295,7 +302,7 @@ p {
 .order {
   position: absolute;
   left: 120px;
-  top: 1501px;
+  top: 1510px;
   background: #2d635e;
   padding: 14px 54px;
   border-radius: 7px;
@@ -345,5 +352,3 @@ footer {
 .totop span:hover {
   background: #444a4a;
 }
-
-
