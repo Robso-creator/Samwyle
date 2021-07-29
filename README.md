@@ -1,6 +1,7 @@
 
 <h1 align="center">
-    Samwyle
+    Samwyle</br>
+    <p></p>
     <img alt="Happy" title="Samwyle" src="public/images/github/Samwyle.png" />
 </h1>
 
